@@ -1,0 +1,98 @@
+html, body {
+    margin:0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    padding: 20px;
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+   
+}
+nav ul li   {
+    display: inline-block;
+    margin-right: 10px;
+   
+}
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: chartreuse;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav ul li:first-child {
+    margin-left: 110px;
+}
+nav ul li a:hover {
+    background-color: rgba(190, 152, 23, 0.5);
+    color: cornsilk;
+    text-decoration:underline;
+   
+}
+
+.banner img {
+    width: 100%;
+    display: block;
+    margin-bottom:30px;
+    border-bottom: 1px dotted black;
+}
+
+.container {
+    margin: 30px ;
+  
+    
+}
+
+.item-prod {
+    width: 31%;
+    display: inline-block;
+    border:3px solid black;
+    border-radius:5px;
+    padding: 5px;
+
+
+}
+.item-prod img {
+    width: 100%;
+    display: block;
+
+}
+.item-prod h1 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: blue;
+    font-size:25px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-shadow:2px 1px 1px black ;
+    cursor: pointer;
+
+    
+
+
+}
+.item-prod p {
+    font-size: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.item-prod button {
+
+    text-transform: uppercase;
+    text-shadow:0.7px 1px 0.9px white;
+    background-color:white;
+    color: red;
+    border:1px dotted black;
+    border-radius: 4px;
+    cursor:pointer;
+    transition: all 1s;
+    padding: 10px 20px;
+    
+}
+.item-prod button:hover {
+    background-color: rgba(226, 3, 3, 0.774);
+    color:white;
+
+}
